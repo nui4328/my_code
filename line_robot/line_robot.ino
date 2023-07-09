@@ -46,11 +46,6 @@ void setup()
 
 void loop() 
   {  
-      Serial.println(error_Yaw());
-      if(digitalRead(9)==0)
-        {          
-          calibration_Yak();
-          delay(300);
-        }
+
 
   }
